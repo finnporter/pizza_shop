@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+/*
+PALETTE
+Dark Green #4d8578
+Light Green #abceaf
+Light Grey  
+Light Red #ff6060
+Dark Red #ff3b3b
+Dark Grey #2d2d2d
+*/
+
+
+/*header*/
+body div {
+  background-color: #abceaf;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+header h1 {
+  color: #ff3b3b;
+  font-family: Lobster;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px; 
+}
+
+header img {
+  width: 11%;
+  float: left;
+  clear: right;
+  position: static;
+}
+
+/*navigation*/
+nav {
+  text-align: center;
+  font-size: 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 0 20px 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: #4d8578;
+}
+
+nav ul li a:hover {
+  color: #ff6060
+}
+
+/*nav ul li a:active {
+  color: #abceaf;
+}
+
+nav ul li a:visited {
+  color: #4d8578;
+}
+*/
+body {
+  background-color: #f9f9f9;
+  color: #2d2d2d;
+  font-family: Droid Sans;
+}
+
+a {
+  color: #4d8578;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6060
+  text-decoration: none;
+}
+
+a#indexLink {
+  width: 100%;
+  background-color: #abceaf;
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  padding: 14px 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+a#indexLink:hover {
+    background-color: #4d8578;
+}
+
+hr {
+  color: #ff3b3b;
+ 
+}
+
+h1 {
+  font-family: Lobster;
+}
+
+body div#main {
+  background-color: #f9f9f9;
+  color: #2d2d2d;
+  font-family: Droid Sans;
+  align-self: left;
+  width: 30%;
+  padding: 20px; 
+}
+
+form {
+  font-family: Droid Sans;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #2d2d2d;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #abceaf;
+    color: #fff;
+    font-size: 1em;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    background-color: #4d8578;
+}

@@ -2,9 +2,15 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/style.css">
   <title>Pizza Shop</title>
 </head>
 <body>
+  <div>
+  <header>
+    <img src="/img/marios_pizza.png" alt="SuperMario with Pizza">
+    <h1>Pizzeria Finntastico!</h1>
+  </header>
   <nav>
     <ul>
       <li>
@@ -15,6 +21,9 @@
       </li>
     </ul>
   </nav>
+  </div>
+  <div id="main">
   <%= yield %>
+  </div>
 </body>
 </html>
